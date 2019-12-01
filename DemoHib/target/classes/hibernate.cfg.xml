@@ -15,8 +15,6 @@
         <property name="connection.url">jdbc:hsqldb:mysql://localhost/cmevents?autoReconnect=true</property> -->
         <property name="connection.username">learn</property>
         <property name="connection.password">sezimay004</property>
-        
-        <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- SQL dialect -->
         <!-- <property name="dialect">org.hibernate.dialect.HSQLDialect</property>  -->
@@ -24,7 +22,7 @@
 
 
         <!-- Echo all executed SQL to stdout -->
-        <property name="show_sql">false</property>
+        <property name="show_sql">true</property>
 
         <property name="hbm2ddl.auto">update</property>
 

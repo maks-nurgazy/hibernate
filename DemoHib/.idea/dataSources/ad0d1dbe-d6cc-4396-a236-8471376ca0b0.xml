@@ -1129,27 +1129,5 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="285" parent="7" name="alien"/>
-    <column id="286" parent="285" name="aid">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="287" parent="285" name="aname">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="288" parent="285" name="color">
-      <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="289" parent="285" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>aid</ColNames>
-      <Primary>1</Primary>
-    </key>
   </database-model>
 </dataSource>

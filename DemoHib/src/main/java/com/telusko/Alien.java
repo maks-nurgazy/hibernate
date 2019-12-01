@@ -1,14 +1,17 @@
 package com.telusko;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Collection;
 
 @Entity
 public class Alien {
     @Id
     private int aid;
     private String aname;
-    private String color;
+    @OneToMany(mappedBy = "alien",fetch = FetchType.EAGER)
+    private Collection<Laptop> laps = new ArrayList<>();
 
     public int getAid() {
         return aid;
@@ -26,11 +29,20 @@ public class Alien {
         this.aname = aname;
     }
 
-    public String getColor() {
-        return color;
+    public Collection<Laptop> getLaps() {
+        return laps;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setLaps(Collection<Laptop> laps) {
+        this.laps = laps;
+    }
+
+    @Override
+    public String toString() {
+        return "Alien{" +
+                "aid=" + aid +
+                ", aname=" + aname +
+                ", laps=" + laps +
+                '}';
     }
 }

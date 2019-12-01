@@ -70,6 +70,9 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.telusko" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Maksatbek\Documents\git\project\v1.0\DemoHib\src\main\resources" />
     </key>
@@ -132,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575188201453</updated>
       <workItem from="1575188204539" duration="2278000" />
-      <workItem from="1575193188665" duration="3103000" />
+      <workItem from="1575193188665" duration="12271000" />
     </task>
     <servers />
   </component>
